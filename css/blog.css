@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
+p, ul, ol, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --lite-blue: #3498db;
+  --dark-blue: #2980b9;
+  --lite-navy: #34495e;
+  --dark-navy: #2c3e50;
+  --white: #fff;
+  --black: #000;
+}
+
+div.post {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  overflow: auto;
+}
+
+img {
+  max-width: 250px;
+  padding: 10px;
+}
+
+.left-column {
+  width: 20%;
+  float: left;
+}
+
+.right-column {
+  width: 80%;
+}
